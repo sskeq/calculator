@@ -1,6 +1,6 @@
-let calc = prompt("Выберите: /, *, -, +, **, %")
-let a = prompt("Введите 1 операнд")
-let b = prompt("Введите 2 операнд")
+let calc = prompt("Choose: /, *, -, +, **, %")
+let a = prompt("Write 1st number")
+let b = prompt("Write 2nd number")
 
 if (calc == "/") {
     alert(a / b);
